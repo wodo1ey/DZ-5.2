@@ -23,8 +23,8 @@ for i in range(30):
 print(*m)
 
 print("Перед каждым чётным элементом вставляется -10:")
-for i in range(59):
-    if i % 2 == 1:
+for i in range(29, -1, -1):
+    if m[i] % 2 == 0:
         m.insert(i, -10)
 print(*m)
 
